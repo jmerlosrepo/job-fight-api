@@ -1,0 +1,61 @@
+const storedCalls: { [key: string]: string } = {
+  addFighterApplications: "CALL add_fighter_applications(?, ?, ?, ?)",
+  addFighterBelt: "CALL add_fighter_belt(?, ?)",
+  addFighterExperience:
+    "CALL add_fighter_experience(?, ?, ?, ?, ?, ?, ?, ?, ?)",
+  addFighterMatch: "CALL add_fighter_match(?, ?)",
+  addFighterPortfolio:
+    "CALL add_fighter_portfolio(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+  addFighterPortfolioAttachment: "CALL add_fighter_portfolio_attachment(?, ?)",
+  addFighterResume: "CALL add_fighter_resume(?, ?, ?)",
+  addFighterSkill: "CALL add_fighter_skill(?, ?, ?)",
+  addJobAttachment: "CALL add_job_attachment(?, ?)",
+  addJobFightUser: "CALL add_job_fight_user(?, ?, ?, ?, ?, ?, ?, ?)",
+  addRefereeTrophies: "CALL add_referee_trophies(?, ?, ?)",
+  addUserAddress: "CALL add_user_address(?, ?, ?, ?, ?, ?, ?)",
+  deleteFighterApplications: "CALL delete_fighter_applications(?)",
+  deleteFighterBelt: "CALL delete_fighter_belt(?, ?)",
+  deleteFighterExperience: "CALL delete_fighter_experience(?, ?)",
+  deleteFighterMatch: "CALL delete_fighter_match(?, ?)",
+  deleteFighterPortfolio: "CALL delete_fighter_portfolio(?, ?)",
+  deleteFighterPortfolioAttachment:
+    "CALL delete_fighter_portfolio_attachment(?, ?)",
+  deleteFighterResume: "CALL delete_fighter_resume(?)",
+  deleteFighterSkill: "CALL delete_fighter_skill(?, ?, ?)",
+  deleteJobAttachment: "CALL delete_job_attachment(?)",
+  deleteJobFightUser: "CALL delete_job_fight_user(?)",
+  deleteRefereeTrophies: "CALL delete_referee_trophies(?, ?)",
+  deleteUserAddress: "CALL delete_user_address(?)",
+  findJobFightUser: "CALL find_job_fight_user(?, ?)",
+  findJobFightUserById: "CALL find_job_fight_user_by_id(?)",
+  findJobFightUserByUsernameOrEmail:
+    "CALL find_job_fight_user_by_username_or_email(?, ?)",
+  getBelts: "CALL get_belts()",
+  getCountries: "CALL get_countries()",
+  getFighterApplicationsByApplicationId:
+    "CALL get_fighter_applications_by_application_id(?)",
+  getFighterApplicationsByUserId: "CALL get_fighter_applications_by_user_id(?)",
+  getFighterBelts: "CALL get_fighter_belts(?)",
+  getFighterMatches: "CALL get_fighter_matches(?)",
+  getFighterPortfolioAttachments: "CALL get_fighter_portfolio_attachments(?)",
+  getFighterPortfolioById: "CALL get_fighter_portfolio_by_id(?, ?)",
+  getFighterPortfolios: "CALL get_fighter_portfolios(?)",
+  getFighterResume: "CALL get_fighter_resume(?)",
+  getFighterSkills: "CALL get_fighter_skills(?)",
+  getJobAttachments: "CALL get_job_attachments(?)",
+  getJobCategories: "CALL get_job_categories()",
+  getRefereeTrophies: "CALL get_referee_trophies(?)",
+  getSkills: "CALL get_skills()",
+  getTrophies: "CALL get_trophies()",
+  getUserAddress: "CALL get_user_address(?)",
+  updateFighterExperience:
+    "CALL update_fighter_experience(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+  updateFighterPortfolio:
+    "CALL update_fighter_portfolio(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+  updateFighterResume: "CALL update_fighter_resume(?, ?, ?)",
+  updateJobFightUser: "CALL update_job_fight_user(?, ?, ?, ?, ?, ?, ?, ?)",
+  updateUserAddress: "CALL update_user_address(?, ?, ?, ?, ?, ?, ?)",
+  updateFighterApplications: "CALL update_fighter_applications(?, ?, ?)",
+};
+
+export default storedCalls;
